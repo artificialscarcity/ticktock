@@ -1,0 +1,10 @@
+[{
+  "name": "ticktock",
+  "script": "./index.js",
+  "env": {
+  },
+  "instances": "1",
+  "error_file": "./logs/pm2-server-err.log",
+  "out_file": "./logs/pm2-server-out.log",
+  "exec_mode": "fork"
+}]

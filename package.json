@@ -1,0 +1,29 @@
+{
+  "name": "ticktock",
+  "version": "0.0.1",
+  "description": "alarm scheduling server",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./src/test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/artificialscarcity/ticktock.git"
+  },
+  "keywords": [
+    "alarm",
+    "smart"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artificialscarcity/ticktock/issues"
+  },
+  "homepage": "https://github.com/artificialscarcity/ticktock",
+  "dependencies": {
+    "async": "=1.4.0",
+    "lodash": "=3.10.0",
+    "mocha": "=2.2.5",
+    "mysql": "=2.8.0"
+  }
+}
